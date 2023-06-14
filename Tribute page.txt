@@ -1,0 +1,188 @@
+<! -- // level-2 Task-2 - TRIBUTE PAGE // Oasis Infobyte Web Development and Designing Internship -->
+
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tribute Page</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="content">
+        <section class="top_section">
+          <div class="image_container">
+            <img src="data:image/jpeg;base64,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" width="300" height="300" align="right">
+          </div>
+          <div>
+            <h1 style="color:pink;">Mahendra Singh Dhoni</h1>
+            <h4>1863-1902</h4>
+          </div>
+        </section>
+        <section class="first_section">
+          <p>
+            <b>Mahendra Singh Dhoni (born 7 July 1981) is an former Indian cricketer. He was captain of the Indian national team in limited-overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. He plays as a right-handed wicket-keeper-batsman and is also the current captain of Chennai Super Kings in the Indian Premier League.
+
+                Born in Ranchi, Bihar (now in Jharkhand),[2][3] His exceptional wicketkeeping skills allowed him to become the regular wicketkeeper at the Commando Cricket Club (1995–1998), he was picked for the 1997/98 season Vinoo Mankad Trophy Under-16 Championship, where he performed well.[4] From 2001 to 2003, He worked as a Travelling Ticket Examiner at Kharagpur railway station under South Eastern Railway in Midnapore, in West Bengal.[5][6] In Indian domestic cricket he played for Bihar and then for Jharkhand Cricket team. Dhoni's performance in the 2002–03 season included three half-centuries in the Ranji Trophy and a couple of half-centuries in the Deodhar Trophy, as he started gaining recognition for his lower-order contribution as well as hard-hitting batting style.
+                
+                Dhoni made his ODI debut on 23 December 2004, against Bangladesh in Chittagong,[7] and played his first Test a year later against Sri Lanka.[8] He played his first T20I also a year later against South Africa.[9] In 2007, he took over the ODI captaincy from Rahul Dravid and he also selected as T20I captain of India in this year.[10] In 2008, he was selected as Test captain.[11] His captaincy record in Tests format was mixed, successfully leading India to a series win against New Zealand in 2008 and the Border-Gavaskar Trophy (home series in 2010 and 2013) against Australia.[12] In other formats, Dhoni is the first cricketer to be a winning captain of all three major ICC trophies, as under his captaincy, India won the 2007 ICC World Twenty20, the 2011 Cricket World Cup, and the 2013 ICC Champions Trophy, the most by any captain. He also led India to victory in the 2010 and 2016 Asia Cup. Additionally, under his leadership, India won the 2010 and 2011 ICC Test Mace and 2013 ICC ODI Championship. He has scored 17,266 runs in International Cricket (including 10,000 plus runs in ODI Internationals).
+                
+                He is the captain of Chennai Super Kings (CSK) in the Indian Premier League, leading them to the final on 10 occasions and winning in the 2010, 2011, 2018, 2021 and 2023 editions of the league, as well as winning the Champions League T20 two times, in 2010 and 2014. He is the 7th cricketer have scored more than 5,000 runs in the IPL, as well as being the first wicket-keeper to do so.
+                
+                Dhoni received India's highest sports honour, the Major Dhyanchand Khel Ratna Award in 2008 for his outstanding achievements and the Government of India honoured him India's fourth civilian award Padma Shri in 2009 and third civilian award Padma Bhushan in 2018. He is the only cricket captain in the world to win all three of the Cricket World Cup, ICC Men's T20 World Cup and ICC Champions Trophy. Dhoni holds an honorary rank of Lieutenant Colonel in the Parachute Regiment of the Indian Territorial Army,[13] it was presented to him by the Indian Army in 2011 for his service to the nation as a cricketer.[14] Dhoni is considered one of the most popular cricketers in the world.[15] He is a leading brand endorser celebrity in India. The 2016 film, M.S. Dhoni: The Untold Story was made as a biopic on his life.
+          </p>
+        </section>
+        <section class="second_section">
+          <h3>Early Life</h3>
+          <b>
+            <h4>Birth and childhood and Education</h4>
+          </b>
+          <p>
+            He was born in Ranchi, Bihar (now Jharkhand), on July 7, 1981. His mother, Devaki Devi, works from home, while his father, Pan Singh, was a junior manager at MECON, a Ministry of Steel PSU.
+
+He attended school in Shyamali, near Ranchi, Jharkhand. He was an exemplary student-athlete, but he preferred badminton and football. He was his school’s goalkeeper.
+
+From 1995 to 1998, his football coach sent him to a local cricket club to be a wicketkeeper. This was an accident. He was the Commando cricket club’s regular wicketkeeper during that period.
+
+From 1997–98, he made the Vinoo Mankad Trophy Under-16 Championship team. After 10th grade, he took cricket seriously.
+          </p>
+        </section>
+        <footer>
+          <p>
+          <h5 style="color:violet;">Read more about Mahendra Singh Dhoni on
+            <a href="https://en.wikipedia.org/wiki/Mahendra Singh Dhoni">Wikipedia</a>
+          </h5>
+          </p>
+        </footer>
+      </div>
+    </div>
+
+
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .container {
+        background-color:red;
+        min-height: 100vh;
+        border: 7px double blueviolet;
+
+      }
+
+      .content {
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+
+      .top_section {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+      }
+
+      .top_section h1 {
+        margin-top: 200px;
+        font-size: 35px;
+        font-weight: bold;
+        color: Blue;
+        text-transform: uppercase;
+      }
+
+      .top_section h4 {
+        margin-top: 40px;
+        text-align: end;
+        font-size: 25px;
+      }
+
+      .image_container {
+        border-radius: 80%;
+        overflow: clip;
+      }
+
+      .image_container,
+      img {
+        width: 300px;
+        height: 350px;
+      }
+
+
+      .first_section p {
+        font-family: cursive;
+        margin-top: 50px;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        text-align: justify;
+      }
+
+      .first_section p span {
+        color: rgb(201, 76, 76);
+      }
+
+      .second_section {
+        margin: 50px 0;
+      }
+
+      .second_section h3 {
+        background-color: #000000;
+        color:#FF9100;
+        font-family: 'Bebas Neue', cursive;
+        padding: 12px 25px;
+        margin: 14px 2px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        box-shadow: inset 0px -2px 3px 1px;
+      }
+
+      .second_section p {
+        font-family: cursive;
+        font-size: 15px;
+        line-height: 30px;
+        letter-spacing: 1px;
+        text-align: justify;
+      }
+
+      .third_section {
+        margin: 50px 0;
+      }
+
+      .third_section h3 {
+        background-color: #000000;
+        color: #FF9100;
+        font-family: 'Bebas Neue', cursive;
+        padding: 12px 25px;
+        margin: 14px 2px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        box-shadow: inset 0px -2px 3px 1px;
+      }
+
+
+      .third_section p {
+        font-family: cursive;
+        line-height: 30px;
+        font-size: 15px;
+        letter-spacing: 1px;
+        text-align: justify;
+      }
+
+      footer {
+        margin: 50px 0;
+      }
+
+      footer p {
+        text-align: end;
+      }
+    </style>
+  </body>
+
+  </html>
+Footer
